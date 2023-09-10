@@ -1,5 +1,4 @@
 ---------- Import packages ----------
-
 import pandas as pd
 import numpy as np
 
@@ -25,7 +24,6 @@ import pickle
 
 
 ---------- EDA & Data Cleaning ----------
-
 # Load dataset into a dataframe
 df0 = pd.read_csv("HR_capstone_dataset.csv")
 
@@ -107,7 +105,6 @@ heatmap = sns.heatmap(df0.corr(),
 
 
 ---------- Building Logistic Regression Model ----------
-
 df_code = df1.copy()
 
 # Encode the `salary` column as an ordinal numeric category
@@ -142,7 +139,6 @@ print(classification_report(y_test, y_pred,
 
 
 ---------- Decision Tree Model ----------
-
 # Implementing GridSearchCV to find best model parameters
 tr = DecisionTreeClassifier(random_state=0)
 
@@ -179,8 +175,8 @@ plt.ylabel("Feature")
 plt.xlabel("Importance")
 plt.show()
 
----------- Feature Engineering & Random Forest Model ----------
 
+---------- Feature Engineering & Random Forest Model ----------
 # Define 'overworked' as > 175 hrs/week
 df_final['overworked'] = df_final['average_monthly_hours']
 

@@ -1,3 +1,7 @@
-# Google-Advanced-Analytics-Capstone-Project
+# My Data Analytics Porfolio
 
-Python code to perform EDA and data cleaning on employee dataset of a company, and to build machine learning models to predict whether an employee will leave the company. 
+Hi, thank you for visiting my portfolio!
+Here are the data analytics projects I've done using SQL, Python, Tableau and Excel. 
+
+I. Google Advanced Data Analytics Capstone Project.
+II. SQL Project.

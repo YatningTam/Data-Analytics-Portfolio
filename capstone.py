@@ -1,3 +1,6 @@
+### Code to explore and clean HR dataset, then build multiple models (Logistic Regression, Decision Tree and Random Forest). ###
+### Objective is to predict whether an employee will leave the company. ###
+
 ---------- Import packages ----------
 import pandas as pd
 import numpy as np

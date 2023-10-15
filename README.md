@@ -7,3 +7,5 @@ Here are the data analytics projects I've done using SQL, Python, Tableau and Ex
 I. Google Advanced Data Analytics Capstone Project.
 
 II. SQL Project.
+
+III. Tableau Projects Link.
